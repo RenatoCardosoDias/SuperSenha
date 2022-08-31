@@ -30,6 +30,9 @@ class PasswordViewController: UIViewController {
         title = "Total de senhas: \(numberOfPassword)"
         passwordGenerator = PasswordGenerate(numberOfCharacters: numberOfCaracteres, useLetters: useLetters, useCapitalLetters: useCapitalLetters, useNumbers: useNumbers, useSpecialCharacters: userSpecialCaracteres)
         let passwords = passwordGenerator.generate(total: numberOfPassword)
+        for password in passwords {
+            tvPassword.text.append(password + "\n\n")
+        }
     }
     
 
