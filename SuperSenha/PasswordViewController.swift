@@ -20,6 +20,8 @@ class PasswordViewController: UIViewController {
     var userSpecialCaracteres: Bool!
     
     
+    var passwordGenerator: PasswordGenerate
+    
     
     
     override func viewDidLoad() {
