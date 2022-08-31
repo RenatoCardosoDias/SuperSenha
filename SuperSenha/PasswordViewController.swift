@@ -29,6 +29,7 @@ class PasswordViewController: UIViewController {
 
         title = "Total de senhas: \(numberOfPassword)"
         passwordGenerator = PasswordGenerate(numberOfCharacters: numberOfCaracteres, useLetters: useLetters, useCapitalLetters: useCapitalLetters, useNumbers: useNumbers, useSpecialCharacters: userSpecialCaracteres)
+        generatePasswords()
         
     }
     
@@ -41,7 +42,7 @@ class PasswordViewController: UIViewController {
     
 
     @IBAction func generate(_ sender: UIButton) {
-        
+        generatePasswords()
         
     }
     
