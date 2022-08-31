@@ -15,6 +15,7 @@
 		880D1B7E28BF5FE300469257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D1B7C28BF5FE300469257 /* LaunchScreen.storyboard */; };
 		880D1B8628BFCC9900469257 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D1B8528BFCC9900469257 /* PasswordViewController.swift */; };
 		880D1B8828BFCF4300469257 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D1B8728BFCF4300469257 /* SecurityTipsViewController.swift */; };
+		880D1B8A28BFD44E00469257 /* PasswordGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D1B8928BFD44E00469257 /* PasswordGenerate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		880D1B7F28BF5FE300469257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880D1B8528BFCC9900469257 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		880D1B8728BFCF4300469257 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		880D1B8928BFD44E00469257 /* PasswordGenerate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				880D1B7F28BF5FE300469257 /* Info.plist */,
 				880D1B8528BFCC9900469257 /* PasswordViewController.swift */,
 				880D1B8728BFCF4300469257 /* SecurityTipsViewController.swift */,
+				880D1B8928BFD44E00469257 /* PasswordGenerate.swift */,
 			);
 			path = SuperSenha;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880D1B7628BF5FE100469257 /* ViewController.swift in Sources */,
+				880D1B8A28BFD44E00469257 /* PasswordGenerate.swift in Sources */,
 				880D1B8628BFCC9900469257 /* PasswordViewController.swift in Sources */,
 				880D1B7228BF5FE100469257 /* AppDelegate.swift in Sources */,
 				880D1B7428BF5FE100469257 /* SceneDelegate.swift in Sources */,
