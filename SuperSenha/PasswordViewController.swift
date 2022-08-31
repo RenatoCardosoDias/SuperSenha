@@ -34,6 +34,8 @@ class PasswordViewController: UIViewController {
     }
     
     func generatePasswords() {
+        //leva o scrool da sua textviewpara uma posição específica
+        tvPassword.scrollRangeToVisible(NSRange(location: 0, length: 0))
         //limpando os dados da UITextView antes de chamar o metodo novamente
         tvPassword.text = ""
         let passwords = passwordGenerator.generate(total: numberOfPassword)
