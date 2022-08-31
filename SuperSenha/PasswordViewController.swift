@@ -34,6 +34,8 @@ class PasswordViewController: UIViewController {
     }
     
     func generatePasswords() {
+        //limpando os dados da UITextView antes de chamar o metodo novamente
+        tvPassword.text = ""
         let passwords = passwordGenerator.generate(total: numberOfPassword)
         for password in passwords {
             tvPassword.text.append(password + "\n\n")
