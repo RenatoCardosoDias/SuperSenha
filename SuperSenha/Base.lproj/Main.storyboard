@@ -154,7 +154,7 @@
             </objects>
             <point key="canvasLocation" x="1001" y="100"/>
         </scene>
-        <!--Title-->
+        <!--Lista de Senhas-->
         <scene sceneID="5y0-L5-TIr">
             <objects>
                 <viewController id="WPA-rZ-HYw" sceneMemberID="viewController">
@@ -164,7 +164,7 @@
                         <viewLayoutGuide key="safeArea" id="xBm-ei-7ow"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="Kdz-l6-Fp6"/>
+                    <navigationItem key="navigationItem" title="Lista de Senhas" id="Kdz-l6-Fp6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8j-4G-2Jx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
