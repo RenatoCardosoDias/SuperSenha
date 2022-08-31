@@ -9,6 +9,7 @@ import UIKit
 
 class PasswordViewController: UIViewController {
 
+    @IBOutlet weak var tvPassword: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
