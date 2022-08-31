@@ -44,18 +44,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usar letras minúsculas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1au-AX-DAO">
+                                <rect key="frame" x="24" y="240" width="309" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c6O-Z2-OAn">
+                                <rect key="frame" x="341" y="235.5" width="51" height="31"/>
+                                <color key="onTintColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c6O-Z2-OAn" secondAttribute="trailing" constant="24" id="0TI-NB-f7W"/>
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="centerY" secondItem="91S-HA-6bP" secondAttribute="centerY" id="3v5-uf-MpO"/>
                             <constraint firstItem="0AN-7z-TVa" firstAttribute="top" secondItem="91S-HA-6bP" secondAttribute="bottom" constant="16" id="Ski-35-MGT"/>
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="leading" secondItem="91S-HA-6bP" secondAttribute="trailing" constant="8" id="TxD-hw-n9q"/>
+                            <constraint firstItem="1au-AX-DAO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="Wed-Ir-mls"/>
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="leading" secondItem="91S-HA-6bP" secondAttribute="trailing" constant="8" id="XLf-kY-TG4"/>
+                            <constraint firstItem="c6O-Z2-OAn" firstAttribute="leading" secondItem="1au-AX-DAO" secondAttribute="trailing" constant="8" id="Zch-Fg-iEz"/>
                             <constraint firstItem="0AN-7z-TVa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="cNO-nF-cF4"/>
                             <constraint firstItem="wVw-FW-3L2" firstAttribute="leading" secondItem="0AN-7z-TVa" secondAttribute="trailing" constant="8" id="fCe-jH-2fF"/>
                             <constraint firstItem="wVw-FW-3L2" firstAttribute="leading" secondItem="0AN-7z-TVa" secondAttribute="trailing" constant="8" id="pdT-cv-pCd"/>
                             <constraint firstItem="wVw-FW-3L2" firstAttribute="centerY" secondItem="0AN-7z-TVa" secondAttribute="centerY" id="qWo-gD-Pet"/>
+                            <constraint firstItem="1au-AX-DAO" firstAttribute="top" secondItem="0AN-7z-TVa" secondAttribute="bottom" constant="16" id="qzz-mW-HQn"/>
+                            <constraint firstItem="c6O-Z2-OAn" firstAttribute="centerY" secondItem="1au-AX-DAO" secondAttribute="centerY" id="spF-37-2rW"/>
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="u2k-7a-XUU"/>
                             <constraint firstItem="91S-HA-6bP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="v25-eh-E0h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GtG-IT-3qL" secondAttribute="trailing" constant="24" id="v81-vg-Xv5"/>
