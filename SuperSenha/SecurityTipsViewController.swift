@@ -25,5 +25,10 @@ class SecurityTipsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func close(_ sender: UIButton) {
+        //fechando a janela Modal
+        dismiss(animated: true, completion: nil)
+        print("Fechando a janela Modal")
+    }
+    
 }

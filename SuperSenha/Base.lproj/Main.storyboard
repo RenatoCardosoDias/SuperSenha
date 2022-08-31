@@ -228,10 +228,10 @@
             </objects>
             <point key="canvasLocation" x="1808.6956521739132" y="99.776785714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Security Tips View Controller-->
         <scene sceneID="RMG-3v-aUI">
             <objects>
-                <viewController id="p1h-t4-yuM" sceneMemberID="viewController">
+                <viewController id="p1h-t4-yuM" customClass="SecurityTipsViewController" customModule="SuperSenha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SaT-2c-SNY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -248,6 +248,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Fechar">
                                     <color key="baseForegroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="close:" destination="p1h-t4-yuM" eventType="touchUpInside" id="5Eq-EW-jvo"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IV3-dW-5yn">
                                 <rect key="frame" x="20" y="87" width="374" height="682"/>
