@@ -180,11 +180,10 @@
                                     <color key="baseForegroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="99999" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Awp-ki-nC4">
-                                <rect key="frame" x="20" y="159" width="374" height="571"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="99999" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Awp-ki-nC4">
+                                <rect key="frame" x="16" y="162" width="382" height="587"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -193,10 +192,14 @@
                         <color key="backgroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xBm-ei-7ow" firstAttribute="trailing" secondItem="LCV-yf-dJW" secondAttribute="trailing" constant="16" id="4iO-w2-h6y"/>
+                            <constraint firstItem="LCV-yf-dJW" firstAttribute="top" secondItem="Awp-ki-nC4" secondAttribute="bottom" constant="12" id="8zE-18-8NB"/>
                             <constraint firstItem="thm-Zi-4fD" firstAttribute="top" secondItem="LCV-yf-dJW" secondAttribute="bottom" constant="34" id="D5g-4v-oRh"/>
                             <constraint firstItem="thm-Zi-4fD" firstAttribute="bottom" secondItem="xBm-ei-7ow" secondAttribute="bottom" constant="8" id="ENh-ai-CB3"/>
+                            <constraint firstItem="Awp-ki-nC4" firstAttribute="leading" secondItem="xBm-ei-7ow" secondAttribute="leading" constant="16" id="FTG-fY-XYy"/>
+                            <constraint firstItem="Awp-ki-nC4" firstAttribute="top" secondItem="xBm-ei-7ow" secondAttribute="top" constant="22" id="XV0-ng-TQ4"/>
                             <constraint firstItem="LCV-yf-dJW" firstAttribute="leading" secondItem="xBm-ei-7ow" secondAttribute="leading" constant="16" id="ggS-HS-xyi"/>
                             <constraint firstAttribute="trailing" secondItem="thm-Zi-4fD" secondAttribute="trailing" constant="16" id="pA2-Kz-ntn"/>
+                            <constraint firstItem="xBm-ei-7ow" firstAttribute="trailing" secondItem="Awp-ki-nC4" secondAttribute="trailing" constant="16" id="xpi-pk-Tna"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Lista de Senhas" id="Kdz-l6-Fp6"/>
@@ -204,6 +207,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8j-4G-2Jx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1808.6956521739132" y="99.776785714285708"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RMG-3v-aUI">
+            <objects>
+                <viewController id="p1h-t4-yuM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SaT-2c-SNY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TE7-Du-rop"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mW1-aH-rnY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2784" y="100"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rj4-4G-9wF">
@@ -226,9 +244,6 @@
     </scenes>
     <resources>
         <image name="lock" width="172.5" height="210"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
