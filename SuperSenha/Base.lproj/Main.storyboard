@@ -95,6 +95,9 @@
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="dru-tY-ejR">
+                                <rect key="frame" x="121" y="616" width="172.5" height="210"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -104,6 +107,7 @@
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="centerY" secondItem="91S-HA-6bP" secondAttribute="centerY" id="3v5-uf-MpO"/>
                             <constraint firstItem="n76-8W-kdC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="60J-e3-d8B"/>
                             <constraint firstItem="ULf-S1-ZIP" firstAttribute="leading" secondItem="xoR-ej-Wn4" secondAttribute="trailing" constant="8" id="BM2-Xv-8qd"/>
+                            <constraint firstItem="dru-tY-ejR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BNP-cL-gXQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="42O-QG-ubW" secondAttribute="trailing" constant="24" id="Bor-0U-GJL"/>
                             <constraint firstItem="HMr-Ej-cGh" firstAttribute="centerY" secondItem="q1M-6Q-EZd" secondAttribute="centerY" id="DGG-N4-w6A"/>
                             <constraint firstItem="pZ4-oQ-747" firstAttribute="centerY" secondItem="n76-8W-kdC" secondAttribute="centerY" id="HfK-Wk-WQw"/>
@@ -130,6 +134,7 @@
                             <constraint firstItem="wVw-FW-3L2" firstAttribute="leading" secondItem="0AN-7z-TVa" secondAttribute="trailing" constant="8" id="pdT-cv-pCd"/>
                             <constraint firstItem="wVw-FW-3L2" firstAttribute="centerY" secondItem="0AN-7z-TVa" secondAttribute="centerY" id="qWo-gD-Pet"/>
                             <constraint firstItem="1au-AX-DAO" firstAttribute="top" secondItem="0AN-7z-TVa" secondAttribute="bottom" constant="16" id="qzz-mW-HQn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dru-tY-ejR" secondAttribute="bottom" constant="36" id="r6F-9q-Bam"/>
                             <constraint firstItem="c6O-Z2-OAn" firstAttribute="centerY" secondItem="1au-AX-DAO" secondAttribute="centerY" id="spF-37-2rW"/>
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="u2k-7a-XUU"/>
                             <constraint firstItem="91S-HA-6bP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="v25-eh-E0h"/>
@@ -166,6 +171,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="lock" width="172.5" height="210"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
