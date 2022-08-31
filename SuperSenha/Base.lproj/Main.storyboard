@@ -17,13 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantidade de senhas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91S-HA-6bP">
-                                <rect key="frame" x="24" y="164" width="179" height="22"/>
+                                <rect key="frame" x="24" y="164" width="278" height="22"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" red="0.59607843137254901" green="0.14117647058823529" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GtG-IT-3qL">
-                                <rect key="frame" x="211" y="136" width="32" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GtG-IT-3qL">
+                                <rect key="frame" x="310" y="158" width="80" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="RBw-u2-ZLR"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -31,8 +34,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="GtG-IT-3qL" firstAttribute="centerY" secondItem="91S-HA-6bP" secondAttribute="centerY" id="3v5-uf-MpO"/>
                             <constraint firstItem="GtG-IT-3qL" firstAttribute="leading" secondItem="91S-HA-6bP" secondAttribute="trailing" constant="8" id="TxD-hw-n9q"/>
+                            <constraint firstItem="GtG-IT-3qL" firstAttribute="leading" secondItem="91S-HA-6bP" secondAttribute="trailing" constant="8" id="XLf-kY-TG4"/>
+                            <constraint firstItem="GtG-IT-3qL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="u2k-7a-XUU"/>
                             <constraint firstItem="91S-HA-6bP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="v25-eh-E0h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GtG-IT-3qL" secondAttribute="trailing" constant="24" id="v81-vg-Xv5"/>
                             <constraint firstItem="91S-HA-6bP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="wlH-rb-LCs"/>
                         </constraints>
                     </view>
