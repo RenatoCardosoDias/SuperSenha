@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    //antes da tela ser apresentada, carregar as informações
+    //esse metodo é executado momentos antes da segue apresentar a nova tela
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
+    }
 
 
 }
