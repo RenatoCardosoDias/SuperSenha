@@ -13,6 +13,7 @@
 		880D1B7928BF5FE100469257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D1B7728BF5FE100469257 /* Main.storyboard */; };
 		880D1B7B28BF5FE300469257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880D1B7A28BF5FE300469257 /* Assets.xcassets */; };
 		880D1B7E28BF5FE300469257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D1B7C28BF5FE300469257 /* LaunchScreen.storyboard */; };
+		880D1B8628BFCC9900469257 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D1B8528BFCC9900469257 /* PasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		880D1B7A28BF5FE300469257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880D1B7D28BF5FE300469257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880D1B7F28BF5FE300469257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D1B8528BFCC9900469257 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				880D1B7A28BF5FE300469257 /* Assets.xcassets */,
 				880D1B7C28BF5FE300469257 /* LaunchScreen.storyboard */,
 				880D1B7F28BF5FE300469257 /* Info.plist */,
+				880D1B8528BFCC9900469257 /* PasswordViewController.swift */,
 			);
 			path = SuperSenha;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880D1B7628BF5FE100469257 /* ViewController.swift in Sources */,
+				880D1B8628BFCC9900469257 /* PasswordViewController.swift in Sources */,
 				880D1B7228BF5FE100469257 /* AppDelegate.swift in Sources */,
 				880D1B7428BF5FE100469257 /* SceneDelegate.swift in Sources */,
 			);
