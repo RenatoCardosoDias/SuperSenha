@@ -168,6 +168,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Dicas sobre segurança">
                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="p1h-t4-yuM" kind="presentation" id="ZJY-Uw-Rni"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCV-yf-dJW">
                                 <rect key="frame" x="16" y="761" width="382" height="44"/>
@@ -213,7 +216,7 @@
             <objects>
                 <viewController id="p1h-t4-yuM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SaT-2c-SNY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="TE7-Du-rop"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
