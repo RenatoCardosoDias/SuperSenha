@@ -161,8 +161,21 @@
                     <view key="view" contentMode="scaleToFill" id="Mfj-Ib-8Ic">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thm-Zi-4fD">
+                                <rect key="frame" x="226" y="839" width="172" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dicas sobre segurança">
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xBm-ei-7ow"/>
                         <color key="backgroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="thm-Zi-4fD" firstAttribute="bottom" secondItem="xBm-ei-7ow" secondAttribute="bottom" constant="8" id="ENh-ai-CB3"/>
+                            <constraint firstAttribute="trailing" secondItem="thm-Zi-4fD" secondAttribute="trailing" constant="16" id="pA2-Kz-ntn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Lista de Senhas" id="Kdz-l6-Fp6"/>
                 </viewController>
@@ -193,6 +206,9 @@
         <image name="lock" width="172.5" height="210"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
