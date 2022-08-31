@@ -27,7 +27,9 @@ class PasswordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        title = "Total de senhas: \(numberOfPassword)"
+        passwordGenerator = PasswordGenerate(numberOfCharacters: numberOfCaracteres, useLetters: useLetters, useCapitalLetters: useCapitalLetters, useNumbers: useNumbers, useSpecialCharacters: userSpecialCaracteres)
+        let passwords = passwordGenerator.generate(total: numberOfPassword)
     }
     
 
