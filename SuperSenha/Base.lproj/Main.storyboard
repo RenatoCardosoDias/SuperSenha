@@ -94,6 +94,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Gerar senhas">
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="WPA-rZ-HYw" kind="show" id="w86-9O-tFs"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="dru-tY-ejR">
                                 <rect key="frame" x="121" y="616" width="172.5" height="210"/>
@@ -161,6 +164,7 @@
                         <viewLayoutGuide key="safeArea" id="xBm-ei-7ow"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3Dl-op-lrD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8j-4G-2Jx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
